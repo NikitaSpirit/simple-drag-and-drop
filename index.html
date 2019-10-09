@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drag and drop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="content">
+      <p class="description">Drag one of the colors and drop it to the dotted area.</p>
+      <div class="drag-and-drop">
+        <div class="drag-container">
+          <div class="drag-color" style="background-color: red" draggable="true" ondragstart="drag(event)"></div>  
+          <div class="drag-color" style="background-color: green" draggable="true" ondragstart="drag(event)"></div>  
+          <div class="drag-color" style="background-color: yellow" draggable="true" ondragstart="drag(event)"></div>  
+          <div class="drag-color" style="background-color: blue" draggable="true" ondragstart="drag(event)"></div>  
+          <div class="drag-color" style="background-color: orange" draggable="true" ondragstart="drag(event)"></div>  
+          <div class="drag-color" style="background-color: violet" draggable="true" ondragstart="drag(event)"></div>  
+        </div>
+        <div class="drop-container" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+      </div>
+    </div>
+  </body>
+
+</html>

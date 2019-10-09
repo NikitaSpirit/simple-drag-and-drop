@@ -1,0 +1,46 @@
+body {
+  background: lavender;
+}
+
+.content {
+  width: 100%;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {  
+  font-style: italic;
+  padding-bottom: 18px;
+}
+
+.drag-and-drop {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drag-container {
+  width: 200px;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.drag-color {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.drop-container {
+  width: 200px;
+  height: 300px;
+  border: 2px dashed black;
+  cursor: pointer;
+}
